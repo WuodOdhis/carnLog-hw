@@ -253,6 +253,103 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CNISITFG
 
+[Document13]
+DocumentPath=CarnLog_v1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Plated_Drill_1_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for CarnLog_v1\Design Rule Check - CarnLog_v1.html
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for CarnLog_v1\Pick Place for CarnLog_v1.csv
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -276,7 +373,7 @@ AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
-ExportBOM=-1
+ExportBOM=0
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=0
@@ -524,6 +621,10 @@ OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:False,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Published,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#18=Name:Part number NEMS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#19=Name:Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#20=Name:Check_prices,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#21=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#22=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#23=Name:Pad Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#24=Name:MPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#25=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#26=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#27=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#28=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#29=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#30=Name:Artikkelnr Noca,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#31=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#32=Name:MP,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#33=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#34=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#35=Name:Part number Norautron,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#36=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#37=Name:Purchase-URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#38=Name:Component Class,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#39=Name:System,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#40=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#41=Name:LCSC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#42=Name:Part number IPS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#43=Name:Distributor Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#44=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#45=Name:Footprint Doc,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#46=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#47=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#48=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#49=Name:Assembly,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#50=Name:Component Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#51=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#52=Name:PartId,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#53=Name:Availability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#54=Name:Note,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#55=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#56=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#57=Name:LCSC NO,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#58=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|DocumentPath=C:\Users\Dell\Desktop\moshte\Projects\CarnLog\Hardware\CarnLog_hw\CarnLog_v1.PcbDoc
 OutputType3=Test Points For Assembly
 OutputName3=Test Point Report
 OutputDocumentPath3=
@@ -540,71 +641,75 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+Configuration10_Name1=ForceUpdateSettings
+Configuration10_Item1=False
+Configuration10_Name2=OutputConfigurationParameter1
+Configuration10_Item2=BoardID=CNISITFG|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPair0_Backdrill=False|PlotBlindViasPair0_Checked=True|PlotBlindViasPair0_DrillType=Regular|PlotBlindViasPair0_FileName= |PlotBlindViasPair0_HighLayer=Mid Layer 1|PlotBlindViasPair0_LowLayer=Top Layer|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777220~1,16777218~1,16777219~1,16777221~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|UncheckPlotDrillDrawingPair0_Backdrill=False|UncheckPlotDrillDrawingPair0_Checked=False|UncheckPlotDrillDrawingPair0_DrillType=Regular|UncheckPlotDrillDrawingPair0_FileName= |UncheckPlotDrillDrawingPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingPair0_LowLayer=Top Layer|UncheckPlotDrillDrawingPair1_Backdrill=False|UncheckPlotDrillDrawingPair1_Checked=False|UncheckPlotDrillDrawingPair1_DrillType=Regular|UncheckPlotDrillDrawingPair1_FileName= |UncheckPlotDrillDrawingPair1_HighLayer=Mid Layer 1|UncheckPlotDrillDrawingPair1_LowLayer=Top Layer|UncheckPlotDrillGuidePair0_Backdrill=False|UncheckPlotDrillGuidePair0_Checked=False|UncheckPlotDrillGuidePair0_DrillType=Regular|UncheckPlotDrillGuidePair0_FileName= |UncheckPlotDrillGuidePair0_HighLayer=Bottom Layer|UncheckPlotDrillGuidePair0_LowLayer=Top Layer|UncheckPlotDrillGuidePair1_Backdrill=False|UncheckPlotDrillGuidePair1_Checked=False|UncheckPlotDrillGuidePair1_DrillType=Regular|UncheckPlotDrillGuidePair1_FileName= |UncheckPlotDrillGuidePair1_HighLayer=Mid Layer 1|UncheckPlotDrillGuidePair1_LowLayer=Top Layer|DocumentPath=C:\Users\Dell\Desktop\moshte\Projects\CarnLog\Hardware\CarnLog_hw\CarnLog_v1.PcbDoc
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
@@ -1370,117 +1475,124 @@ Net21=NetName=AM_OUT|NetColor=clFuchsia
 Net22=NetName=ANT_GNSS|NetColor=clFuchsia
 Net23=NetName=ANT_MAIN|NetColor=clFuchsia
 Net24=NetName=BOOT|NetColor=$00D6A7B4
-Net25=NetName=CAN_RX|NetColor=clBlue
-Net26=NetName=CAN_TX|NetColor=clBlue
-Net27=NetName=CANH_N|NetColor=clBlue
-Net28=NetName=CANH_P|NetColor=clBlue
-Net29=NetName=CC1|NetColor=$00D8783C
-Net30=NetName=CC1_EC|NetColor=$00EB9E6D
-Net31=NetName=CC2|NetColor=$00D8783C
-Net32=NetName=CC2_EC|NetColor=$00EB9E6D
-Net33=NetName=CLK|NetColor=$00AFA576
-Net34=NetName=CLK_|NetColor=$00794DA6
-Net35=NetName=CMD|NetColor=$00794DA6
-Net36=NetName=CS_A/G|NetColor=$0032C2F1
-Net37=NetName=CS_M|NetColor=$0032C2F1
-Net38=NetName=DAT0|NetColor=$00794DA6
-Net39=NetName=DAT1|NetColor=$00794DA6
-Net40=NetName=DAT2|NetColor=$00794DA6
-Net41=NetName=DAT3|NetColor=$00794DA6
-Net42=NetName=DBG_RXD|NetColor=$0094530B
-Net43=NetName=DBG_TXD|NetColor=$0094530B
-Net44=NetName=DEN_A/G|NetColor=$0032C2F1
-Net45=NetName=DRDY_M|NetColor=$0032C2F1
-Net46=NetName=EC_PWR|NetColor=clBlue
-Net47=NetName=EC_RST|NetColor=clBlue
-Net48=NetName=EC_USB_N|NetColor=$008E8145
-Net49=NetName=EC_USB_P|NetColor=$008E8145
-Net50=NetName=EC_VUSB|NetColor=$00FF0099
-Net51=NetName=EN|NetColor=$00000F5B
-Net52=NetName=EN_TP|NetColor=$00000F5B
-Net53=NetName=FB|NetColor=$00000F5B
-Net54=NetName=GND|NetColor=$00134E27
-Net55=NetName=GNSS_CAP|NetColor=clFuchsia
-Net56=NetName=GNSS_CONN|NetColor=clFuchsia
-Net57=NetName=GNSS_IND|NetColor=clFuchsia
-Net58=NetName=INT_M|NetColor=$0032C2F1
-Net59=NetName=INT1_A/G|NetColor=$0032C2F1
-Net60=NetName=INT2_A/G|NetColor=$0032C2F1
-Net61=NetName=IO|NetColor=$00AFA576
-Net62=NetName=K_LINE|NetColor=clBlue
-Net63=NetName=K_RX|NetColor=clBlue
-Net64=NetName=K_TX|NetColor=clBlue
-Net65=NetName=L_LINE|NetColor=clBlue
-Net66=NetName=L_TX|NetColor=clBlue
-Net67=NetName=LOUDSPK_N|NetColor=clBlue
-Net68=NetName=LOUDSPK_P|NetColor=clBlue
-Net69=NetName=MAIN_CTS|NetColor=clBlue
-Net70=NetName=MAIN_DCD|NetColor=clBlue
-Net71=NetName=MAIN_DTR|NetColor=clBlue
-Net72=NetName=MAIN_RI|NetColor=clBlue
-Net73=NetName=MAIN_RTS|NetColor=clBlue
-Net74=NetName=MAIN_RXD|NetColor=clBlue
-Net75=NetName=MAIN_TXD|NetColor=clBlue
-Net76=NetName=MCU_CTS|NetColor=clBlue
-Net77=NetName=MCU_DCD|NetColor=clBlue
-Net78=NetName=MCU_DTR|NetColor=clBlue
-Net79=NetName=MCU_PWR|NetColor=clBlue
-Net80=NetName=MCU_RI|NetColor=clBlue
-Net81=NetName=MCU_RST|NetColor=clBlue
-Net82=NetName=MCU_RTS|NetColor=clBlue
-Net83=NetName=MCU_RXD|NetColor=clBlue
-Net84=NetName=MCU_TXD|NetColor=clBlue
-Net85=NetName=NetA2_1|NetColor=clFuchsia
-Net86=NetName=NetC45_2|NetColor=clFuchsia
-Net87=NetName=NetJ1_A6|NetColor=clBlue
-Net88=NetName=NetJ1_A7|NetColor=clBlue
-Net89=NetName=NetL3_2|NetColor=clFuchsia
-Net90=NetName=nRESET|NetColor=clLime
-Net91=NetName=nRF_LED|NetColor=clLime
-Net92=NetName=nRF_USB_FS.USB_N|NetColor=clBlue
-Net93=NetName=nRF_USB_N|NetColor=clBlue
-Net94=NetName=nRF_USB_P|NetColor=clBlue
-Net95=NetName=nRF_VUSB|NetColor=$00FF0099
-Net96=NetName=NRST|NetColor=clLime
-Net97=NetName=PH|NetColor=$00AFA576
-Net98=NetName=PWRKEY|NetColor=clBlue
-Net99=NetName=RESET|NetColor=clBlue
-Net100=NetName=RST|NetColor=$00AFA576
-Net101=NetName=SCL/SPC|NetColor=$0032C2F1
-Net102=NetName=SD_CLK|NetColor=$00794DA6
-Net103=NetName=SD_CMD|NetColor=$00794DA6
-Net104=NetName=SD_DAT0|NetColor=$00794DA6
-Net105=NetName=SD_DAT1|NetColor=$00794DA6
-Net106=NetName=SD_DAT2|NetColor=$00794DA6
-Net107=NetName=SD_DAT3|NetColor=$00794DA6
-Net108=NetName=SD_DAT4|NetColor=$00794DA6
-Net109=NetName=SD_DET|NetColor=$00794DA6
-Net110=NetName=SD_VDD|NetColor=$00794DA6
-Net111=NetName=SDA_A/G|NetColor=$0032C2F1
-Net112=NetName=SDA/SDI/SDO|NetColor=$0032C2F1
-Net113=NetName=SDIO_CLK|NetColor=$00794DA6
-Net114=NetName=SDO_A/G|NetColor=$0032C2F1
-Net115=NetName=SDO_M|NetColor=$0032C2F1
-Net116=NetName=SENSE|NetColor=$00000F5B
-Net117=NetName=SWDCLK|NetColor=clLime
-Net118=NetName=SWDIO|NetColor=clLime
-Net119=NetName=USB_BOOT|NetColor=clLime
-Net120=NetName=USB_N|NetColor=clBlue
-Net121=NetName=USB_N_EC|NetColor=$00633707
-Net122=NetName=USB_P|NetColor=clBlue
-Net123=NetName=USB_P_EC|NetColor=$00633707
-Net124=NetName=USIM_CLK|NetColor=$00AFA576
-Net125=NetName=USIM_DATA|NetColor=$00AFA576
-Net126=NetName=USIM_RST|NetColor=$00AFA576
-Net127=NetName=USIM_VDD|NetColor=$00AFA576
-Net128=NetName=VBUS|NetColor=$004D1220
-Net129=NetName=VBUS_EC|NetColor=$00A74E67
-Net130=NetName=VBUS_nRF|NetColor=$00A74E67
-Net131=NetName=VCC_LNA|NetColor=$000099FF
-Net132=NetName=VDD_EXT|NetColor=$000099FF
-Net133=NetName=VIN|NetColor=$00FF0099
-Net134=NetName=VUSB|NetColor=$00FF0099
-Net135=NetName=VUSB_EC|NetColor=$00FF0099
+Net25=NetName=C_GND|NetColor=$001D7638
+Net26=NetName=CAN_RX|NetColor=clBlue
+Net27=NetName=CAN_TX|NetColor=clBlue
+Net28=NetName=CANH_N|NetColor=clBlue
+Net29=NetName=CANH_P|NetColor=clBlue
+Net30=NetName=CC1|NetColor=$00D8783C
+Net31=NetName=CC1_EC|NetColor=$00EB9E6D
+Net32=NetName=CC2|NetColor=$00D8783C
+Net33=NetName=CC2_EC|NetColor=$00EB9E6D
+Net34=NetName=CLK|NetColor=$00AFA576
+Net35=NetName=CLK_|NetColor=$00794DA6
+Net36=NetName=CMD|NetColor=$00794DA6
+Net37=NetName=CS|NetColor=$0032C2F1
+Net38=NetName=CS_A/G|NetColor=$0032C2F1
+Net39=NetName=CS_M|NetColor=$0032C2F1
+Net40=NetName=DAT0|NetColor=$00794DA6
+Net41=NetName=DAT1|NetColor=$00794DA6
+Net42=NetName=DAT2|NetColor=$00794DA6
+Net43=NetName=DAT3|NetColor=$00794DA6
+Net44=NetName=DBG_RXD|NetColor=$0094530B
+Net45=NetName=DBG_TXD|NetColor=$0094530B
+Net46=NetName=DEN_A/G|NetColor=$0032C2F1
+Net47=NetName=DRDY_M|NetColor=$0032C2F1
+Net48=NetName=EC_PWR|NetColor=clBlue
+Net49=NetName=EC_RST|NetColor=clBlue
+Net50=NetName=EC_USB_N|NetColor=$008E8145
+Net51=NetName=EC_USB_P|NetColor=$008E8145
+Net52=NetName=EC_VUSB|NetColor=$00FF0099
+Net53=NetName=EN|NetColor=$00000F5B
+Net54=NetName=EN_TP|NetColor=$00000F5B
+Net55=NetName=FB|NetColor=$00000F5B
+Net56=NetName=GND|NetColor=$00134E27
+Net57=NetName=GNSS_CAP|NetColor=clFuchsia
+Net58=NetName=GNSS_CONN|NetColor=clFuchsia
+Net59=NetName=GNSS_IND|NetColor=clFuchsia
+Net60=NetName=INT_M|NetColor=$0032C2F1
+Net61=NetName=INT1|NetColor=$0032C2F1
+Net62=NetName=INT1_A/G|NetColor=$0032C2F1
+Net63=NetName=INT2|NetColor=$0032C2F1
+Net64=NetName=INT2_A/G|NetColor=$0032C2F1
+Net65=NetName=IO|NetColor=$00AFA576
+Net66=NetName=K_LINE|NetColor=clBlue
+Net67=NetName=K_RX|NetColor=clBlue
+Net68=NetName=K_TX|NetColor=clBlue
+Net69=NetName=L_LINE|NetColor=clBlue
+Net70=NetName=L_TX|NetColor=clBlue
+Net71=NetName=LOUDSPK_N|NetColor=clBlue
+Net72=NetName=LOUDSPK_P|NetColor=clBlue
+Net73=NetName=MAIN_CTS|NetColor=clBlue
+Net74=NetName=MAIN_DCD|NetColor=clBlue
+Net75=NetName=MAIN_DTR|NetColor=clBlue
+Net76=NetName=MAIN_RI|NetColor=clBlue
+Net77=NetName=MAIN_RTS|NetColor=clBlue
+Net78=NetName=MAIN_RXD|NetColor=clBlue
+Net79=NetName=MAIN_TXD|NetColor=clBlue
+Net80=NetName=MCU_CTS|NetColor=clBlue
+Net81=NetName=MCU_DCD|NetColor=clBlue
+Net82=NetName=MCU_DTR|NetColor=clBlue
+Net83=NetName=MCU_PWR|NetColor=clBlue
+Net84=NetName=MCU_RI|NetColor=clBlue
+Net85=NetName=MCU_RST|NetColor=clBlue
+Net86=NetName=MCU_RTS|NetColor=clBlue
+Net87=NetName=MCU_RXD|NetColor=clBlue
+Net88=NetName=MCU_TXD|NetColor=clBlue
+Net89=NetName=NetA2_1|NetColor=clFuchsia
+Net90=NetName=NetC45_2|NetColor=clFuchsia
+Net91=NetName=NetJ1_A6|NetColor=clBlue
+Net92=NetName=NetJ1_A7|NetColor=clBlue
+Net93=NetName=NetL3_2|NetColor=clFuchsia
+Net94=NetName=nRESET|NetColor=clLime
+Net95=NetName=nRF_LED|NetColor=clLime
+Net96=NetName=nRF_USB_FS.USB_N|NetColor=clBlue
+Net97=NetName=nRF_USB_N|NetColor=clBlue
+Net98=NetName=nRF_USB_P|NetColor=clBlue
+Net99=NetName=nRF_VUSB|NetColor=$00FF0099
+Net100=NetName=NRST|NetColor=clLime
+Net101=NetName=PH|NetColor=$00AFA576
+Net102=NetName=PWRKEY|NetColor=clBlue
+Net103=NetName=RESET|NetColor=clBlue
+Net104=NetName=RST|NetColor=$00AFA576
+Net105=NetName=SCL|NetColor=$0032C2F1
+Net106=NetName=SCL/SPC|NetColor=$0032C2F1
+Net107=NetName=SD_CLK|NetColor=$00794DA6
+Net108=NetName=SD_CMD|NetColor=$00794DA6
+Net109=NetName=SD_DAT0|NetColor=$00794DA6
+Net110=NetName=SD_DAT1|NetColor=$00794DA6
+Net111=NetName=SD_DAT2|NetColor=$00794DA6
+Net112=NetName=SD_DAT3|NetColor=$00794DA6
+Net113=NetName=SD_DAT4|NetColor=$00794DA6
+Net114=NetName=SD_DET|NetColor=$00794DA6
+Net115=NetName=SD_VDD|NetColor=$00794DA6
+Net116=NetName=SDA|NetColor=$0032C2F1
+Net117=NetName=SDA_A/G|NetColor=$0032C2F1
+Net118=NetName=SDA/SDI/SDO|NetColor=$0032C2F1
+Net119=NetName=SDIO_CLK|NetColor=$00794DA6
+Net120=NetName=SDO_A/G|NetColor=$0032C2F1
+Net121=NetName=SDO_M|NetColor=$0032C2F1
+Net122=NetName=SDO/SAO|NetColor=$0032C2F1
+Net123=NetName=SENSE|NetColor=$00000F5B
+Net124=NetName=SWDCLK|NetColor=clLime
+Net125=NetName=SWDIO|NetColor=clLime
+Net126=NetName=USB_BOOT|NetColor=clLime
+Net127=NetName=USB_N|NetColor=clBlue
+Net128=NetName=USB_N_EC|NetColor=$00633707
+Net129=NetName=USB_P|NetColor=clBlue
+Net130=NetName=USB_P_EC|NetColor=$00633707
+Net131=NetName=USIM_CLK|NetColor=$00AFA576
+Net132=NetName=USIM_DATA|NetColor=$00AFA576
+Net133=NetName=USIM_RST|NetColor=$00AFA576
+Net134=NetName=USIM_VDD|NetColor=$00AFA576
+Net135=NetName=VBUS|NetColor=$004D1220
+Net136=NetName=VBUS_EC|NetColor=$00A74E67
+Net137=NetName=VBUS_nRF|NetColor=$00A74E67
+Net138=NetName=VCC_LNA|NetColor=$000099FF
+Net139=NetName=VDD_EXT|NetColor=$000099FF
+Net140=NetName=VIN|NetColor=$00FF0099
+Net141=NetName=VUSB|NetColor=$00FF0099
+Net142=NetName=VUSB_EC|NetColor=$00FF0099
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
