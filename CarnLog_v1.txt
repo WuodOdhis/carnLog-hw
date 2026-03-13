@@ -1,0 +1,541 @@
+Board Information Report
+Filename     : C:\Users\Dell\Desktop\moshte\Projects\CarnLog\Hardware\CarnLog_hw\CarnLog_v1.PcbDoc
+Date         : 13/03/2026
+Time         : 16:23:03
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 109.8298mmx61.9305mm
+    Components on board, 179
+count : 2
+
+Routing Information
+    Routing completion, 98.94%
+    Connections, 471
+    Connections routed, 466
+    Connections remaining, 5
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Sig/Pwr/Gnd-1, 4, 618, 0, 1034, 0, 4, 73, 0
+    Gnd-2, 0, 0, 0, 0, 0, 0, 1, 0
+    Sig/Pwr/Gnd-3, 0, 0, 0, 235, 0, 0, 7, 0
+    Sig/Pwr/Gnd-4, 0, 0, 0, 231, 0, 0, 1, 0
+    Gnd-5, 0, 0, 0, 0, 0, 0, 1, 0
+    Sig/Pwr-6, 0, 76, 0, 302, 0, 0, 21, 0
+    Mechanical 1, 2, 0, 0, 25, 0, 0, 0, 93
+    Top Component Center, 0, 0, 0, 0, 0, 0, 0, 3
+    Bottom Component Center, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Assembly, 4, 0, 0, 9, 1, 0, 12, 0
+    Top Courtyard, 0, 0, 0, 0, 0, 0, 0, 1
+    Mechanical 7, 341, 0, 0, 9544, 65, 0, 0, 0
+    Mechanical 13, 24, 0, 0, 445, 87, 0, 0, 76
+    Mechanical 15, 5, 0, 0, 466, 2, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Courtyard, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 59, 467, 0, 0, 0, 3, 0
+    Top Paste, 56, 8, 0, 98, 0, 3, 15, 0
+    Top Overlay, 41, 0, 0, 717, 341, 0, 2, 0
+    Top Solder, 8, 1, 0, 1, 0, 4, 34, 0
+    Board Layer Stack Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Board Layer Stack Bottom Overlay, 3, 0, 0, 66, 40, 0, 1, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 5, 0, 0, 10, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 26
+
+Drill Pairs, Vias
+    Sig/Pwr/Gnd-1 - Sig/Pwr-6, 467
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Sig/Pwr/Gnd-1, 7.677, 4952.911, 77%
+    Gnd-2, 8.353, 5389.287, 83%
+    Sig/Pwr/Gnd-3, 7.818, 5043.871, 78%
+    Sig/Pwr/Gnd-4, 7.84, 5058.038, 78%
+    Gnd-5, 8.353, 5389.287, 83%
+    Sig/Pwr-6, 8.023, 5176.396, 80%
+count : 6
+
+Non-Plated Hole Size, Pads, Vias
+    0mm, 22, 0
+    0.6mm, 4, 0
+    0.75mm, 2, 0
+    1.2mm, 2, 0
+    3.2004mm, 4, 0
+count : 5
+
+Plated Hole Size, Pads, Vias
+    0mm, 679, 0
+    0.1mm, 0, 8
+    0.2mm, 15, 0
+    0.25mm, 0, 351
+    0.3mm, 0, 44
+    0.5mm, 0, 64
+    1.02mm, 8, 0
+    1.5mm, 16, 0
+count : 8
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+    23.622mil / 55.118mil, 4
+    23.622mil / 66.929mil, 4
+count : 2
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0mm, 12
+    0.1mm, 15
+    0.2mm, 8
+    0.25mm, 351
+    0.3mm, 44
+    0.3mm, 72
+    0.35mm, 8
+    1mm, 16
+count : 8
+
+Mid Layer Annular Ring Size, Count
+    0mm, 12
+    0.1mm, 15
+    0.2mm, 8
+    0.25mm, 351
+    0.3mm, 44
+    0.3mm, 72
+    0.35mm, 8
+    1mm, 16
+count : 8
+
+Bottom Layer Annular Ring Size, Count
+    0mm, 12
+    0.1mm, 15
+    0.2mm, 8
+    0.25mm, 351
+    0.3mm, 44
+    0.3mm, 72
+    0.35mm, 8
+    1mm, 16
+count : 8
+
+Pad Solder Mask, Count
+    -5mm, 1
+    0mm, 22
+    0.05mm, 40
+    0.065mm, 1
+    0.1mm, 697
+    0.3mm, 1
+count : 6
+
+Pad Paste Mask, Count
+    -5mm, 8
+    -2mm, 2
+    -1mm, 15
+    -0.6mm, 8
+    -0.25mm, 1
+    0mm, 8
+    0.02mm, 720
+count : 7
+
+Pad Pwr/Gnd Expansion, Count
+    0.5mm, 762
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 762
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 762
+count : 1
+
+Pad Relief Entries, Count
+    4, 762
+count : 1
+
+Via Solder Mask, Count
+    0.0762mm, 16
+    0.1mm, 298
+    0.1016mm, 153
+count : 3
+
+Via Pwr/Gnd Expansion, Count
+    0.5mm, 467
+count : 1
+
+Track Width, Count
+    0mm, 1
+    0.01mm, 5
+    0.03mm, 5842
+    0.05mm, 182
+    0.1mm, 4084
+    0.1118mm, 2
+    0.125mm, 34
+    0.127mm, 167
+    0.13mm, 76
+    0.15mm, 49
+    0.152mm, 10
+    0.1524mm, 231
+    0.175mm, 324
+    0.1768mm, 474
+    0.1851mm, 64
+    0.19mm, 9
+    0.1939mm, 97
+    0.2mm, 589
+    0.203mm, 20
+    0.25mm, 5
+    0.254mm, 382
+    0.3mm, 340
+    0.5mm, 191
+count : 23
+
+Arc Line Width, Count
+    0mm, 2
+    0.03mm, 316
+    0.05mm, 1
+    0.1mm, 85
+    0.127mm, 2
+    0.15mm, 11
+    0.19mm, 1
+    0.2mm, 49
+    0.203mm, 2
+    0.25mm, 6
+    0.254mm, 3
+    0.3mm, 2
+    0.6096mm, 8
+count : 13
+
+Arc Radius, Count
+    0.0156mm, 1
+    0.0167mm, 1
+    0.025mm, 1
+    0.025mm, 1
+    0.0427mm, 2
+    0.0427mm, 2
+    0.0428mm, 2
+    0.0428mm, 2
+    0.0429mm, 4
+    0.0429mm, 2
+    0.0429mm, 2
+    0.0439mm, 6
+    0.0439mm, 2
+    0.0443mm, 2
+    0.0443mm, 4
+    0.0443mm, 2
+    0.0498mm, 4
+    0.05mm, 59
+    0.05mm, 2
+    0.05mm, 2
+    0.0501mm, 2
+    0.0501mm, 2
+    0.0506mm, 4
+    0.0506mm, 4
+    0.0611mm, 4
+    0.0611mm, 4
+    0.0694mm, 2
+    0.0696mm, 2
+    0.0696mm, 2
+    0.0698mm, 2
+    0.0724mm, 1
+    0.0726mm, 2
+    0.0726mm, 2
+    0.0726mm, 2
+    0.0726mm, 2
+    0.0751mm, 1
+    0.0756mm, 1
+    0.0758mm, 1
+    0.0766mm, 1
+    0.0787mm, 1
+    0.079mm, 2
+    0.079mm, 4
+    0.079mm, 2
+    0.0825mm, 1
+    0.0861mm, 1
+    0.0888mm, 1
+    0.1mm, 47
+    0.101mm, 2
+    0.101mm, 2
+    0.101mm, 4
+    0.1054mm, 4
+    0.1054mm, 4
+    0.1118mm, 1
+    0.1197mm, 1
+    0.1246mm, 1
+    0.1247mm, 1
+    0.125mm, 1
+    0.1251mm, 1
+    0.1262mm, 2
+    0.1262mm, 2
+    0.1414mm, 1
+    0.177mm, 5
+    0.2mm, 2
+    0.2045mm, 1
+    0.2088mm, 1
+    0.2109mm, 1
+    0.2184mm, 1
+    0.2405mm, 1
+    0.25mm, 1
+    0.275mm, 1
+    0.2839mm, 2
+    0.295mm, 8
+    0.3011mm, 2
+    0.3016mm, 2
+    0.3029mm, 4
+    0.3029mm, 2
+    0.3029mm, 2
+    0.35mm, 4
+    0.3929mm, 1
+    0.458mm, 1
+    0.4582mm, 1
+    0.462mm, 1
+    0.4642mm, 1
+    0.4653mm, 1
+    0.466mm, 8
+    0.4668mm, 1
+    0.467mm, 1
+    0.4691mm, 1
+    0.4696mm, 1
+    0.4706mm, 1
+    0.474mm, 1
+    0.4745mm, 1
+    0.4756mm, 1
+    0.479mm, 1
+    0.4793mm, 1
+    0.4795mm, 1
+    0.4796mm, 1
+    0.4797mm, 1
+    0.4805mm, 1
+    0.4834mm, 1
+    0.4839mm, 1
+    0.4841mm, 1
+    0.4845mm, 1
+    0.4846mm, 1
+    0.4854mm, 1
+    0.4884mm, 1
+    0.4884mm, 1
+    0.4885mm, 1
+    0.4889mm, 1
+    0.4891mm, 1
+    0.4896mm, 1
+    0.4903mm, 1
+    0.4903mm, 1
+    0.4905mm, 1
+    0.4922mm, 1
+    0.4925mm, 1
+    0.4928mm, 1
+    0.4933mm, 1
+    0.4934mm, 1
+    0.4936mm, 1
+    0.494mm, 1
+    0.4941mm, 1
+    0.4943mm, 1
+    0.4948mm, 1
+    0.4951mm, 1
+    0.4953mm, 1
+    0.4981mm, 1
+    0.4984mm, 1
+    0.4985mm, 1
+    0.4988mm, 1
+    0.4989mm, 1
+    0.4991mm, 1
+    0.4992mm, 1
+    0.4993mm, 1
+    0.4993mm, 1
+    0.4993mm, 1
+    0.5mm, 7
+    0.5005mm, 1
+    0.5032mm, 1
+    0.5035mm, 1
+    0.5038mm, 1
+    0.5041mm, 1
+    0.5043mm, 1
+    0.5043mm, 1
+    0.5044mm, 2
+    0.5045mm, 1
+    0.5046mm, 1
+    0.5057mm, 1
+    0.5082mm, 1
+    0.5083mm, 1
+    0.5084mm, 1
+    0.5087mm, 1
+    0.509mm, 1
+    0.5092mm, 1
+    0.5094mm, 1
+    0.5095mm, 1
+    0.5096mm, 1
+    0.5096mm, 1
+    0.5097mm, 1
+    0.5098mm, 1
+    0.5124mm, 1
+    0.5124mm, 1
+    0.5135mm, 1
+    0.5135mm, 1
+    0.5136mm, 1
+    0.5141mm, 1
+    0.5142mm, 1
+    0.5145mm, 1
+    0.5147mm, 1
+    0.5149mm, 1
+    0.5149mm, 1
+    0.5149mm, 1
+    0.5151mm, 1
+    0.5171mm, 1
+    0.5176mm, 1
+    0.5177mm, 1
+    0.5182mm, 1
+    0.5188mm, 1
+    0.5189mm, 1
+    0.5195mm, 1
+    0.5197mm, 1
+    0.5197mm, 1
+    0.5197mm, 1
+    0.5202mm, 1
+    0.5202mm, 1
+    0.5231mm, 1
+    0.5238mm, 1
+    0.5241mm, 1
+    0.5246mm, 1
+    0.5249mm, 1
+    0.525mm, 1
+    0.5251mm, 1
+    0.5255mm, 1
+    0.5255mm, 1
+    0.5264mm, 1
+    0.5295mm, 1
+    0.5302mm, 1
+    0.5302mm, 1
+    0.5309mm, 1
+    0.531mm, 1
+    0.533mm, 1
+    0.5331mm, 1
+    0.535mm, 1
+    0.5353mm, 1
+    0.5356mm, 1
+    0.5365mm, 1
+    0.5365mm, 1
+    0.5385mm, 1
+    0.5386mm, 1
+    0.5405mm, 1
+    0.5409mm, 1
+    0.5411mm, 1
+    0.5419mm, 1
+    0.5421mm, 1
+    0.5443mm, 1
+    0.5461mm, 1
+    0.5461mm, 1
+    0.5467mm, 1
+    0.5475mm, 1
+    0.5477mm, 1
+    0.5494mm, 1
+    0.55mm, 2
+    0.5517mm, 1
+    0.5533mm, 1
+    0.5533mm, 1
+    0.559mm, 1
+    0.5591mm, 1
+    0.5649mm, 1
+    0.5651mm, 1
+    0.5706mm, 1
+    0.5764mm, 1
+    0.5816mm, 1
+    0.6mm, 4
+    0.6338mm, 1
+    0.696mm, 1
+    0.725mm, 1
+    0.75mm, 1
+    0.762mm, 14
+    0.85mm, 1
+    0.8504mm, 1
+    0.896mm, 2
+    0.8961mm, 2
+    0.8961mm, 2
+    0.8961mm, 2
+    0.9253mm, 1
+    0.95mm, 1
+    0.9674mm, 2
+    0.9675mm, 2
+    1mm, 1
+    1.0516mm, 2
+    1.0517mm, 2
+    1.18mm, 4
+    1.27mm, 2
+count : 253
+
+Arc Degrees, Count
+    0, 6
+    1, 38
+    2, 40
+    3, 29
+    4, 16
+    5, 28
+    6, 17
+    7, 13
+    8, 15
+    9, 8
+    10, 2
+    11, 5
+    12, 4
+    13, 7
+    14, 2
+    15, 1
+    18, 1
+    19, 1
+    21, 1
+    24, 9
+    27, 1
+    28, 1
+    29, 1
+    41, 8
+    42, 4
+    44, 8
+    45, 6
+    89, 8
+    90, 105
+    102, 2
+    160, 8
+    360, 93
+count : 32
+
+Text Height, Count
+    0.2mm, 1
+    0.3048mm, 58
+    0.381mm, 9
+    0.5mm, 3
+    0.8mm, 1
+    1mm, 83
+    1.524mm, 358
+    1.778mm, 2
+    1.8mm, 19
+    3mm, 2
+count : 10
+
+Text Width, Count
+    0.05mm, 1
+    0.0508mm, 58
+    0.076mm, 2
+    0.0762mm, 7
+    0.1mm, 3
+    0.15mm, 83
+    0.1524mm, 7
+    0.175mm, 1
+    0.1778mm, 3
+    0.2032mm, 12
+    0.254mm, 358
+    3.378mm, 1
+count : 12
+
+Net Track Width, Count
+    0.15mm, 114
+    0.2mm, 1
+    0.254mm, 8
+count : 3
+
+Net Via Size, Count
+    0.5mm, 123
+count : 1
