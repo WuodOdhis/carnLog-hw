@@ -169,23 +169,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\Myogen-26\Hardware\Myogen-26_hw\main.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NNELFBQZ
-
-[Document9]
 DocumentPath=CarnLog_v1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=CarnLog_v1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,24 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CNISITFG
 
-[Document11]
-DocumentPath=CarnLog_v1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document12]
+[Document10]
 DocumentPath=..\..\..\..\pcbdesignlibs\alitumlib\Fp_Lib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -251,9 +217,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=EIFWANVM
 
-[Document13]
+[Document11]
 DocumentPath=..\..\..\..\pcbdesignlibs\alitumlib\Sch_Lib.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -268,87 +234,41 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=JINNOPHV
+
+[Document12]
+DocumentPath=overview.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MSLLGQIW
+
+[Document13]
+DocumentPath=CarnLog_v1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_4.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Plated_Drill_1_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for CarnLog_v1\Design Rule Check - CarnLog_v1.html
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for CarnLog_v1\Pick Place for CarnLog_v1.csv
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -374,7 +294,7 @@ AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
 ExportBOM=0
-TemplateFilename=
+TemplateFilename=Board Stack Report.XLT
 TemplateStoreRelative=-1
 PCB_PrintColor=0
 SCH_PrintColor=0
