@@ -1,4 +1,5 @@
-Record=TopLevelDocument|FileName=can&usb.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=can&usb.SchDoc|FileName=ec200u.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=can&usb.SchDoc|FileName=nrf52840.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=can&usb.SchDoc|FileName=pwr.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=overview.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=overview.SchDoc|Designator=can & usb|SchDesignator=can & usb|FileName=can&usb.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=can&usb.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=overview.SchDoc|Designator=ec200u|SchDesignator=ec200u|FileName=ec200u.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=ec200u.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=overview.SchDoc|Designator=nrf52840|SchDesignator=nrf52840|FileName=nrf52840.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=nrf52840.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=overview.SchDoc|Designator=power|SchDesignator=power|FileName=pwr.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=pwr.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
