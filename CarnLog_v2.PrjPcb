@@ -253,85 +253,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSLLGQIW
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1.EXTREP
+[Document13]
+DocumentPath=CarnLog_v2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1.REP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_4.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Plated_Drill_1_3.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for CarnLog_v1\CarnLog_v1_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for CarnLog_v1\Design Rule Check - CarnLog_v1.html
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for CarnLog_v1\Pick Place for CarnLog_v1.csv
-DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
