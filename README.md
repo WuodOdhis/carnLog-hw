@@ -1,14 +1,39 @@
 # CarnLog Hardware
 
-Design files for the CarnLog hardware: an LTE, BLE, and USB Full-Speed OBD II datalogger for modern vehicles.
+An OBD II datalogger that plugs into a vehicle's diagnostic port and records CAN bus, engine, and vehicle data over LTE and BLE.
 
-## Overview
+## What It Does
 
-CarnLog is a vehicle datalogger that connects to a car's OBD II port and records diagnostic and CAN bus data. It combines:
+Modern cars expose a wealth of data through the OBD II port: engine RPM, vehicle speed, coolant temperature, fuel status, diagnostic trouble codes, and raw CAN bus frames. Most of this data is only visible while you're sitting in the driver's seat with a scanner plugged in.
 
-- **Quectel EC200U** — LTE modem for cellular connectivity
-- **Nordic nRF52840** — BLE and main controller
-- **CAN controller** — vehicle bus interface
+CarnLog removes that limitation. Once connected to the OBD II port, it continuously captures vehicle data and transmits it off-board — either over LTE for remote fleets or over BLE for local access — so the data can be logged, analyzed, and acted on without anyone present.
+
+## Hardware Architecture
+
+The design is built around three core subsystems:
+
+### Cellular Modem — Quectel EC200U
+Provides LTE connectivity for transmitting logged data to a remote server. The modem handles its own power management and network registration independently of the main controller.
+
+### Main Controller — Nordic nRF52840
+A low-power ARM Cortex-M4 with integrated BLE. Runs the application firmware, manages the CAN interface, buffers logged data, and handles communication with both the LTE modem and any local BLE client.
+
+### Vehicle Interface — CAN Controller
+Connects to the vehicle's CAN bus through the OBD II connector. Captures standard OBD II PIDs as well as raw CAN frames for deeper diagnostics.
+
+### Power
+Draws power directly from the vehicle's OBD II pin 16 (12V battery) with regulation down to the 3.3V rails needed by the logic. The nRF52840's low-power modes allow the logger to sleep between capture windows and wake on CAN activity.
+
+## Data Flow
+
+```
+OBD II Port → CAN Bus → nRF52840 → Buffer → EC200U (LTE) / BLE
+```
+
+1. CAN frames arrive from the vehicle bus
+2. The nRF52840 parses and timestamps them
+3. Data is buffered in flash during transit gaps
+4. Buffered data is pushed over LTE or read locally over BLE
 
 ## Repository Contents
 
@@ -16,18 +41,16 @@ CarnLog is a vehicle datalogger that connects to a car's OBD II port and records
 |------|-------------|
 | `CarnLog-26.PcbDoc` | PCB layout |
 | `CarnLog-26.PrjPcb` | Altium project file |
-| `CarnLog-26.pdf` | Schematic/assembly PDF |
-| `overview.SchDoc` | Top-level schematic |
-| `pwr.SchDoc` | Power supply schematic |
-| `can&usb.SchDoc` | CAN and USB interface schematic |
-| `ec200u.SchDoc` | LTE modem schematic |
-| `nrf52840.SchDoc` | BLE controller schematic |
+| `CarnLog-26.pdf` | Schematic and assembly drawings |
+| `overview.SchDoc` | Top-level system schematic |
+| `pwr.SchDoc` | Power regulation and distribution |
+| `can&usb.SchDoc` | CAN transceiver and USB interface |
+| `ec200u.SchDoc` | LTE modem interface |
+| `nrf52840.SchDoc` | BLE controller and peripherals |
 
-## Contributors
+## Use Cases
 
-- [xmoshte](https://github.com/xmoshte) — hardware design and layout
-- [WuodOdhis](https://github.com/WuodOdhis) — documentation
-
-## License
-
-See repository for license details.
+- **Fleet tracking** — monitor engine health and driving behavior across vehicles remotely
+- **Diagnostic logging** — capture intermittent fault codes that only appear while driving
+- **Development** — access raw CAN data from a vehicle for prototyping and testing
+- **Insurance / telematics** — record driving patterns for usage-based insurance programs
